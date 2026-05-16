@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="103" y1="71" x2="1086" y2="1462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11171D"/>
+      <stop offset="0.44" stop-color="#1E1E25"/>
+      <stop offset="1" stop-color="#3A241A"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 310) rotate(44.6) scale(658 612)">
+      <stop stop-color="#B6D1BE" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#B6D1BE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(918 1082) rotate(132.2) scale(716 636)">
+      <stop stop-color="#D58E3B" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#D58E3B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silhouette" x1="600" y1="424" x2="600" y2="1398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7ECF1" stop-opacity="0.96"/>
+      <stop offset="0.62" stop-color="#CBD3DB" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#ADB8C4" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="600" y1="760" x2="600" y2="1438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A3440"/>
+      <stop offset="1" stop-color="#121821"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <rect width="1200" height="1500" fill="url(#glowA)"/>
+  <rect width="1200" height="1500" fill="url(#glowB)"/>
+  <ellipse cx="600" cy="1398" rx="390" ry="82" fill="#0E0D10" fill-opacity="0.58"/>
+  <path d="M318 1246C318 989.735 525.735 782 782 782H801C1057.26 782 1265 989.735 1265 1246V1500H318V1246Z" fill="#14161B" fill-opacity="0.64"/>
+  <path d="M304 1258C304 985.198 525.198 764 798 764H812C1084.8 764 1306 985.198 1306 1258V1500H304V1258Z" fill="url(#silhouette)"/>
+  <path d="M370 1266C370 1025.74 564.738 831 805 831C1045.26 831 1240 1025.74 1240 1266V1500H370V1266Z" fill="url(#jacket)"/>
+  <path d="M470 982C470 806.4 612.4 664 788 664C963.6 664 1106 806.4 1106 982V1022C1106 1197.6 963.6 1340 788 1340C612.4 1340 470 1197.6 470 1022V982Z" fill="url(#silhouette)"/>
+  <path d="M472 1008C472 810.745 631.745 651 829 651C1026.25 651 1186 810.745 1186 1008V1086H472V1008Z" fill="#1B2430"/>
+  <path d="M596 1394L728 1158H938L1070 1394H596Z" fill="#0F141B" fill-opacity="0.84"/>
+  <path d="M706 1010C706 990.118 722.118 974 742 974H816C835.882 974 852 990.118 852 1010V1020C852 1039.88 835.882 1056 816 1056H742C722.118 1056 706 1039.88 706 1020V1010Z" fill="#665448" fill-opacity="0.36"/>
+</svg>
